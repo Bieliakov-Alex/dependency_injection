@@ -7,3 +7,5 @@ V8Engine::start() {
 V8Engine::Stop() {
   // stop the engine
 }
+
+std::unique_ptr<IEngine> MakeV8Engine() { return std::make_unique<V8Engine>(); }
