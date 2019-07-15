@@ -1,0 +1,10 @@
+#ifndef DEPENDENCY_INJECTION_INCLUDE_V8ENGINE_HPP_
+#define DEPENDENCY_INJECTION_INCLUDE_V8ENGINE_HPP_
+
+class V8Engine {
+public:
+  void Start();
+  void Stop();
+};
+
+#endif // DEPENDENCY_INJECTION_INCLUDE_V8ENGINE_HPP_
